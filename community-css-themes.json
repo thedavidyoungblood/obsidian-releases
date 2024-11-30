@@ -2243,5 +2243,12 @@
     "repo": "incantatem2/Obsidian-mulled-wine",
     "screenshot": "images/mulledwine-thumbnail.jpg",
     "modes": ["dark", "light"]
+  },
+  {
+    "name": "AUÆPME",
+    "author": "AUÆPME",
+    "repo": "AUÆPME/obsidian-auæpme",
+    "screenshot": "auæpme-screenshot.png",
+    "modes": ["dark", "light"]
   }
 ]

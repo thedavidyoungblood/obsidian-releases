@@ -573,5 +573,10 @@
     "id": "obsidian-fountain",
     "name": "Fountain",
     "reason": "Account deleted"
+  },
+  {
+    "id": "previous-project-management-plugins",
+    "name": "Previous Project Management Plugins",
+    "reason": "Replaced by AUÆPME"
   }
 ]

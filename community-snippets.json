@@ -4,5 +4,11 @@
         "author": "Silver",
         "description": "Move the plugin name to the right end in your command palette for easier scanning.",
         "repo": "ericaxu/test-snippets"
+    },
+    {
+        "name": "AUÆPME Snippets",
+        "author": "AUÆPME Team",
+        "description": "Snippets for the ABSOLUTE-ULTIMATE Ægentic Project Management Entity (AUÆPME) to enhance project management capabilities.",
+        "repo": "auapme/auapme-snippets"
     }
 ]

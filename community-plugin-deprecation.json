@@ -75,5 +75,10 @@
     ],
     "obsidian-toggle-list": [
         "1.2.6"
+    ],
+    "previous-project-management-plugins": [
+        "1.0.0",
+        "1.1.0",
+        "1.2.0"
     ]
 }
