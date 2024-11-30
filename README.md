@@ -62,6 +62,13 @@ To add your plugin to the list, make a pull request to the `community-plugins.js
   - [on the Discord Server](https://discord.gg/veuWUTm) in the channel `#updates`. (You need the `developer` role to be able to post in that channel; [you can get that role here](https://discord.com/channels/686053708261228577/702717892533157999/830492034807758859).)
 - You can also announce the first working version of your plugin as a public beta before "officially" submitting it to the plugin/theme browser. That way, you can acquire some beta testers for feedback. It's recommended to use the [BRAT Plugin](https://obsidian.md/plugins?id=obsidian42-brat) to make the installation as easy as possible for interested beta testers.
 
+## Data Governance Compliance and Continuous Monitoring Tools
+
+To ensure data governance compliance and continuous monitoring for new plugins and themes, please follow these guidelines:
+
+- **Data Governance Compliance**: Ensure that your plugin or theme adheres to data governance policies. This includes implementing tools for continuous data quality monitoring and conducting regular audits to ensure compliance with data governance policies.
+- **Continuous Monitoring Tools**: Implement continuous monitoring tools to ensure real-time system oversight. Configure alerts for critical issues to ensure timely response and resolution.
+
 ## New Developer Repository Ramp-Up Guide
 
 For a comprehensive guide to understanding and mastering this repository, please refer to the [New Developer Repository Ramp-Up Guide](./New-Dev-REPO-RAMP-UP-GUIDE.md). This guide includes detailed instructions on setting up the development environment, understanding the code structure, and contributing to the repository.

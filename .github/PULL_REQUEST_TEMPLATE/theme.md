@@ -18,3 +18,5 @@ Link to my theme:
 - [ ] I have read the tips in https://docs.obsidian.md/Themes/App+themes/Theme+guidelines and have self-reviewed my theme to avoid these common pitfalls.
 - [ ] I have added a license in the LICENSE file.
 - [ ] My project respects and is compatible with the original license of any code from other themes that I'm using. I have given proper attribution to these other themes in my `README.md`.
+- [ ] I have ensured data governance compliance.
+- [ ] I have implemented continuous monitoring tools.

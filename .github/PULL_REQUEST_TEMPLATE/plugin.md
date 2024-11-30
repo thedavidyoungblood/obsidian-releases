@@ -24,3 +24,5 @@ Link to my plugin:
 - [ ] I have added a license in the LICENSE file.
 - [ ] My project respects and is compatible with the original license of any code from other plugins that I'm using.
       I have given proper attribution to these other projects in my `README.md`.
+- [ ] I have ensured data governance compliance.
+- [ ] I have implemented continuous monitoring tools.

@@ -237,6 +237,18 @@ jobs:
                     addWarning('Your repository does not include a license. It is generally recommended for open-source projects to have a license. Go to <https://choosealicense.com/> to compare different open source licenses.');
                 }
 
+                // Validate data governance compliance
+                const dataGovernancePolicies = JSON.parse(fs.readFileSync('data-governance-policies.json', 'utf8'));
+                if (!dataGovernancePolicies.includes(theme.repo)) {
+                    addError(`The theme \`${theme.repo}\` does not comply with data governance policies.`);
+                }
+
+                // Ensure continuous monitoring tools are implemented
+                const monitoringTools = JSON.parse(fs.readFileSync('monitoring-tools.json', 'utf8'));
+                if (!monitoringTools.includes(theme.repo)) {
+                    addError(`The theme \`${theme.repo}\` does not have continuous monitoring tools implemented.`);
+                }
+
                 await github.rest.pulls.update({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
