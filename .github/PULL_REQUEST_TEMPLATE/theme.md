@@ -20,3 +20,5 @@ Link to my theme:
 - [ ] My project respects and is compatible with the original license of any code from other themes that I'm using. I have given proper attribution to these other themes in my `README.md`.
 - [ ] I have ensured data governance compliance.
 - [ ] I have implemented continuous monitoring tools.
+- [ ] I have included documentation and visualization tools.
+- [ ] I have followed the AUÆPME guidelines.

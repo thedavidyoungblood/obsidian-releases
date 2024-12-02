@@ -243,6 +243,22 @@ jobs:
               if (!monitoringTools.includes(plugin.id)) {
                 addError(`The plugin \`${plugin.id}\` does not have continuous monitoring tools implemented.`);
               }
+
+              // Ensure documentation and visualization tools are included
+              const documentationTools = JSON.parse(fs.readFileSync('documentation-tools.json', 'utf8'));
+              if (!documentationTools.includes(plugin.id)) {
+                addError(`The plugin \`${plugin.id}\` does not have documentation tools implemented.`);
+              }
+              const visualizationTools = JSON.parse(fs.readFileSync('visualization-tools.json', 'utf8'));
+              if (!visualizationTools.includes(plugin.id)) {
+                addError(`The plugin \`${plugin.id}\` does not have visualization tools implemented.`);
+              }
+
+              // Ensure AUÆPME guidelines are followed
+              const auaepmeGuidelines = JSON.parse(fs.readFileSync('auaepme-guidelines.json', 'utf8'));
+              if (!auaepmeGuidelines.includes(plugin.id)) {
+                addError(`The plugin \`${plugin.id}\` does not follow the AUÆPME guidelines.`);
+              }
             })();
             
             if (errors.length > 0 || warnings.length > 0) {

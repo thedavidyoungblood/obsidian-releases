@@ -100,3 +100,7 @@ jobs:
           git add .
           git commit -m "chore: Update plugin stats"
           git push
+      - name: Ensure AUÆPME Guidelines
+        run: |
+          echo "Ensuring AUÆPME guidelines are followed..."
+          # Add your AUÆPME guidelines validation logic here

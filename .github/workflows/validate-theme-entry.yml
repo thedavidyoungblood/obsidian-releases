@@ -249,6 +249,22 @@ jobs:
                     addError(`The theme \`${theme.repo}\` does not have continuous monitoring tools implemented.`);
                 }
 
+                // Ensure documentation and visualization tools are included
+                const documentationTools = JSON.parse(fs.readFileSync('documentation-tools.json', 'utf8'));
+                if (!documentationTools.includes(theme.repo)) {
+                    addError(`The theme \`${theme.repo}\` does not have documentation tools implemented.`);
+                }
+                const visualizationTools = JSON.parse(fs.readFileSync('visualization-tools.json', 'utf8'));
+                if (!visualizationTools.includes(theme.repo)) {
+                    addError(`The theme \`${theme.repo}\` does not have visualization tools implemented.`);
+                }
+
+                // Ensure AUÆPME compliance
+                const auapmeCompliance = JSON.parse(fs.readFileSync('auapme-compliance.json', 'utf8'));
+                if (!auapmeCompliance.includes(theme.repo)) {
+                    addError(`The theme \`${theme.repo}\` does not comply with AUÆPME guidelines.`);
+                }
+
                 await github.rest.pulls.update({
                   owner: context.repo.owner,
                   repo: context.repo.repo,

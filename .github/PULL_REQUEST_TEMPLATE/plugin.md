@@ -26,3 +26,5 @@ Link to my plugin:
       I have given proper attribution to these other projects in my `README.md`.
 - [ ] I have ensured data governance compliance.
 - [ ] I have implemented continuous monitoring tools.
+- [ ] I have included documentation and visualization tools.
+- [ ] I have followed the AUÆPME guidelines.
